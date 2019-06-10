@@ -5,9 +5,9 @@ Tensorflow, Keras, PaddlePaddle (in progress), as well as cloud APIs. Perceptron
 design from [`foolbox`](https://github.com/bethgelab/foolbox), and is designed to be agnostic to
 the deep learning frameworks the models are built on.
 
-Documentation is available on [`readthedoc`](https://perceptron-robustness-benchmark.readthedocs.io/)
+API references and examples available on [`readthedoc`](https://perceptron-robustness-benchmark.readthedocs.io/)
 
-Currently, you can use Perceptron either through its python API or its command line tool.
+Currently, only Python3 is supported, and you can use Perceptron either through its python API or its command line tool. 
 
 ## Getting Started
 
@@ -51,7 +51,7 @@ Build the docker image and all dependencies will be installed automatically.
 nvidia-docker build -t perceptron:env .
 ```
 
-### Keras: ResNet50 - C&W2 Benchmarking
+### API Interface - Example
 The following example serves the same purpose as the command line example.
 This example benchmarks the robustness of Keras ResNet50 model against `C&W2`
 metric by measuring the minimal required :math:`L2` perturbation for a `CW2` to
