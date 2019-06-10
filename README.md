@@ -12,7 +12,7 @@ Currently, you can use Perceptron either through its python API or its command l
 ## Getting Started
 
 ### Installation 
-The `PyTorch` and `Tensorflow` packages are required if you want to test their models, we requir user to manually install them on demand. Otherwise, run the following command to install Perceptron Benchmark
+The `PyTorch` and `Tensorflow` packages are required if you want to test their models, we requir user to manually install them on demand. Otherwise, run the following command to install Perceptron Benchmark in `editable` mode. 
 ```
 pip install -e .
 ```
@@ -43,6 +43,7 @@ metrics. To see more options using `-h` for help message.
 ```
 python perceptron/launcher.py -h
 ```
+For more examples, please check out the `examples/` or [`readthedoc`](https://perceptron-robustness-benchmark.readthedocs.io/).
 
 ### Docker Quick Start
 Build the docker image and all dependencies will be installed automatically.
